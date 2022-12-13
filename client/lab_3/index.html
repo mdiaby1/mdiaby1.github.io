@@ -1,0 +1,69 @@
+<!--
+    Replace this with your working code from Lab 2, and include:
+    - The styles in this folder's `style.css`
+    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mory Diaby's Top 5 Albums</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<!--wrapper div -->
+			<header class="header"><h1>Mory Diaby's Top 5 Albums</h1></header>
+			<div class="container">
+				<!--container div -->
+				<div class="left_section box">
+					<!-- left div -->
+					<h2>Album Names</h2>
+					<p1>Here is the list of Albums: </p1>
+					<ol class="box">
+						<li>One.Drake - Comeback Season</li>
+						<li>Two. Mac Demarco - Old Dog Demos</li>
+						<li>Three. Nujabes- Metaphorical Music</li>
+						<li>Fourth. Nujabes - Modal Soul</li>
+						<li>Five. Oh Wonder - Oh Wonder</li>
+					</ol>
+				</div>
+
+				<div class="right_section box">
+					<!--right div -->
+					<h3>Image Carousel</h3>
+					<div class="carousel">
+						<button class="prev">prev</button>
+						<div class="slides">
+							<div class="carousel_item visible">
+								<img id="slide_1" src="images/dragon.jpeg" alt="1st dragon" />
+							</div>
+							<div class="carousel_item hidden">
+								<img id="slide_2" src="images/dragon2.png" alt="2nd dragon" />
+							</div>
+							<div class="carousel_item hidden">
+								<img id="slide_3" src="images/dragon3.png" alt=" 3rd dragon" />
+							</div>
+							<div class="carousel_item hidden">
+								<img id="slide_4" src="images/dragon4.png" alt=" 4th dragon" />
+							</div>
+						</div>
+						<button class="next">next</button>
+					</div>
+					<div class="box">Description of the images above</div>
+				</div>
+			</div>
+			<footer class="footer">
+				<a
+					href="https://github.com/mdiaby1/INST377-Lab-Work"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					UMD INST Github repository</a
+				>
+			</footer>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
